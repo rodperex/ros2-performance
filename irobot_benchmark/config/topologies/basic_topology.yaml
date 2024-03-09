@@ -1,0 +1,58 @@
+# ROS 2 topology parameters
+
+num_publishers:  # Dictionary mapping topic names to number of publishers
+  laser_topic: 7
+  image_topic: 20
+  pcl_topic: 100
+  speed_topic: 98
+  vector_topic: 10
+  byte_topic: 100
+
+num_subscribers:  # Dictionary mapping topic names to number of subscribers
+  laser_topic: 7
+  image_topic: 20
+  pcl_topic: 100
+  speed_topic: 98
+  vector_topic: 10
+  byte_topic: 100
+
+topics:  # List of topic names
+  - laser_topic
+  - image_topic
+  - pcl_topic
+  - speed_topic
+  - vector_topic
+  - byte_topic
+
+msg_types:  # List of message types corresponding to topics
+  - laser_scan
+  - image
+  - point_cloud2
+  - twist
+  - vector3
+  - stamped8mb
+
+publisher_configs:  # Publisher-specific configurations
+  laser_topic:  # Configurations for laser_topic
+    - period_ms: 20  # Publishing period in milliseconds
+      msg_pass_by: shared_ptr  # Message passing mechanism
+
+  image_topic:  # Configurations for image_topic
+    - period_ms: 30
+      msg_pass_by: shared_ptr
+
+  pcl_topic:  # Configurations for pcl_topic
+    - period_ms: 15
+      msg_pass_by: shared_ptr
+
+  speed_topic:  # Configurations for speed_topic
+    - period_ms: 100  # Adjust these values as needed
+      msg_pass_by: shared_ptr
+
+  vector_topic:  # Configurations for vector_topic
+    - period_ms: 50
+      msg_pass_by: shared_ptr
+
+  byte_topic:  # Configurations for byte_topic
+    - period_ms: 200
+      msg_pass_by: shared_ptr

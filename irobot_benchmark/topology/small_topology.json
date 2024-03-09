@@ -1,0 +1,24 @@
+{
+    "nodes": [
+        {
+            "node_name": "publisher",
+            "publishers": [
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 10,
+                    "msg_pass_by": "shared_ptr"
+                }
+            ]
+        },
+        {
+            "node_name": "subscriber",
+            "subscribers": [
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                }
+            ]
+        }
+    ]
+}
