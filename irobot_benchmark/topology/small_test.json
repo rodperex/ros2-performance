@@ -1,0 +1,26 @@
+{
+  "nodes": [
+      {
+        "node_name": "publisher",
+        "publishers": [
+              {"topic_name": "laser_topic", "msg_type": "laser_scan", "period_ms": 10, "msg_pass_by":"shared_ptr"},
+              {"topic_name": "image_topic", "msg_type": "image", "period_ms": 10, "msg_pass_by":"shared_ptr"},
+              {"topic_name": "pcl_topic", "msg_type": "point_cloud2", "period_ms": 10, "msg_pass_by":"shared_ptr"},
+              {"topic_name": "speed_topic", "msg_type": "twist", "period_ms": 10, "msg_pass_by":"shared_ptr"},
+              {"topic_name": "vector_topic", "msg_type": "vector3", "period_ms": 10, "msg_pass_by":"shared_ptr"}
+            ]
+      },
+
+      {
+        "node_name": "subscriber",
+        "subscribers":[
+            {"topic_name":"laser_topic", "msg_type":"laser_scan"},
+            {"topic_name":"image_topic", "msg_type":"image"},
+            {"topic_name":"pcl_topic", "msg_type":"point_cloud2"},
+            {"topic_name":"speed_topic", "msg_type":"twist"},
+            {"topic_name":"vector_topic", "msg_type":"vector3"}
+    
+          ]
+      }
+    ]
+}
