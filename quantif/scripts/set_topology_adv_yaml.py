@@ -36,7 +36,16 @@ def create_topology(num_publishers, num_subscribers, topics, msg_types, publishe
                 "topic_name": topic,
                 "msg_type": msg_types[topics.index(topic)],
                 "period_ms": publisher_config.get("period_ms", 10),  # Use default if no config provided
-                "msg_pass_by": publisher_config.get("msg_pass_by", "shared_ptr")  # Use default if no config provided
+                "msg_pass_by": publisher_config.get("msg_pass_by", "shared_ptr"),  # Use default if no config provided
+                "qos_depth": publisher_config.get("qos_depth", 10),  # Use default if no config provided
+                "qos_history": publisher_config.get("qos_history", "keep_last"),  # Use default if no config provided
+                "qos_reliability": publisher_config.get("qos_reliability", "best_effort"),  # Use default if no config provided
+                "qos_durability": publisher_config.get("qos_durability", "volatile"),  # Use default if no config provided
+                "qos_deadline": publisher_config.get("qos_deadline", "infinite"),  # Use default if no config provided
+                "qos_lifespan": publisher_config.get("qos_lifespan", "infinite"),  # Use default if no config provided
+                "qos_liveliness": publisher_config.get("qos_liveliness", "automatic"),  # Use default if no config provided
+                "qos_liveliness_lease_duration": publisher_config.get("qos_liveliness_lease_duration", "infinite"),  # Use default if no config provided
+                "qos_avoid_ros_namespace_conventions": str(publisher_config.get("qos_avoid_ros_namespace_conventions", "false")).lower(),  # Use default if no config provided
             })
     nodes.append(publisher_info)
 
@@ -78,11 +87,11 @@ import json
 import os
 
 pkg_dir = os.path.dirname(os.path.dirname(__file__))
-topology = "adv_topology"
+topology = "basic_topology"
 config_file = topology + ".yaml"
 out_file = topology + ".json"
 config_file = os.path.join(pkg_dir, "config", "topologies", config_file)
-out_file = os.path.join(pkg_dir, "experiments", "topologies", out_file)
+out_file = os.path.join(pkg_dir, "scripts", "topologies", out_file)
 
 params = load_topology_params(config_file)
 
@@ -90,6 +99,7 @@ num_publishers = params["num_publishers"]
 num_subscribers = params["num_subscribers"]
 topics = params["topics"]
 msg_types = params["msg_types"]
+
 publisher_configs = params.get("publisher_configs", None)  # Optional publisher configs
 
 # Create topology using loaded parameters
