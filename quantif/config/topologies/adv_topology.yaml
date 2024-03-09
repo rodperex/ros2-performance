@@ -1,0 +1,45 @@
+# ROS 2 topology parameters
+
+num_publishers:  # Dictionary mapping topic names to number of publishers
+  laser_topic: 10
+  image_topoc: 10
+
+
+num_subscribers:  # Dictionary mapping topic names to number of subscribers
+  laser_topic: 10
+  image_topoc: 10
+
+
+topics:  # List of topic names
+  - laser_topic
+  - image_topoc
+
+msg_types:  # List of message types corresponding to topics
+  - laser_scan
+  - image
+
+publisher_configs:  # Publisher-specific configurations
+  laser_topic:  # Configurations for laser_topic
+    - period_ms: 20  # Publishing period in milliseconds
+      msg_pass_by: shared_ptr  # Message passing mechanism
+      qos_depth: 10
+      qos_history: keep_last
+      qos_reliability: reliable
+      qos_durability: volatile
+      qos_deadline: default
+      qos_lifespan: default
+      qos_liveliness: system_default
+      qos_liveliness_lease_duration: default
+      qos_avoid_ros_namespace_conventions: false
+  image_topoc:  # Configurations for image_topoc
+    - period_ms: 20  # Publishing period in milliseconds
+      msg_pass_by: shared_ptr  # Message passing mechanism
+      qos_depth: 10
+      qos_history: keep_last
+      qos_reliability: reliable
+      qos_durability: volatile
+      qos_deadline: default
+      qos_lifespan: default
+      qos_liveliness: system_default
+      qos_liveliness_lease_duration: default
+      qos_avoid_ros_namespace_conventions: false

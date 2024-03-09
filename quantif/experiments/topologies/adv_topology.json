@@ -1,0 +1,394 @@
+{
+    "nodes": [
+        {
+            "node_name": "publisher",
+            "publishers": [
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image",
+                    "period_ms": 20,
+                    "msg_pass_by": "shared_ptr",
+                    "qos_depth": 10,
+                    "qos_history": "keep_last",
+                    "qos_reliability": "reliable",
+                    "qos_durability": "volatile",
+                    "qos_deadline": "default",
+                    "qos_lifespan": "default",
+                    "qos_liveliness": "system_default",
+                    "qos_liveliness_lease_duration": "default",
+                    "qos_avoid_ros_namespace_conventions": "false"
+                }
+            ]
+        },
+        {
+            "node_name": "subscriber",
+            "subscribers": [
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "laser_topic",
+                    "msg_type": "laser_scan"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                },
+                {
+                    "topic_name": "image_topoc",
+                    "msg_type": "image"
+                }
+            ]
+        }
+    ]
+}

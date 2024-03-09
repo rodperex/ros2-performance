@@ -19,19 +19,18 @@ def load_experiment(filename):
     # Perform basic validation or transformation on loaded parameters if needed (optional)
     return params
 
-ws_dir = os.getcwd()
-config_file = "basic.yaml"
-topology_file = "test_topology.json"
+
+config_file = "adv.yaml"
 # config_file = sys.argv[1]
 # topology_file = sys.argv[2]
 
 dir_path = os.path.dirname(__file__)
-pkg_dir = os.path.dirname(os.path.dirname(os.path.dirname(dir_path)))
-config_file = os.path.join(pkg_dir, "irobot_benchmark", "config", "experiments", config_file)
+pkg_dir = os.path.dirname(dir_path)
+config_file = os.path.join(pkg_dir, "config", "experiments", config_file)
 
 params = load_experiment(config_file)
 
-topology_path = os.path.join(pkg_dir, "irobot_benchmark", "topology", params["topology_file"])
+topology_path = os.path.join(pkg_dir, "experiments", "topologies", params["topology_file"])
 
 ros2_cmd = ["ros2", "run", "irobot_benchmark", "irobot_benchmark",
             topology_path, "-t", str(params.get("duration", 1))]  # Set duration from params (optional)
