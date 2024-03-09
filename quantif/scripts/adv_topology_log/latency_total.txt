@@ -1,0 +1,2 @@
+received[#]    mean[us]  late[#]   late[%]   too_late[#]    too_late[%]    lost[#]   lost[%]   
+1120           33        0         0         0              0              0         0         

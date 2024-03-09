@@ -30,7 +30,7 @@ config_file = os.path.join(pkg_dir, "config", "experiments", config_file)
 
 params = load_experiment(config_file)
 
-topology_path = os.path.join(pkg_dir, "experiments", "topologies", params["topology_file"])
+topology_path = os.path.join(pkg_dir, "scripts", "topologies", params["topology_file"])
 
 ros2_cmd = ["ros2", "run", "irobot_benchmark", "irobot_benchmark",
             topology_path, "-t", str(params.get("duration", 1))]  # Set duration from params (optional)
