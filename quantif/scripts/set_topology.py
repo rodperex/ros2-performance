@@ -1,3 +1,6 @@
+import yaml
+
+
 def create_topology(num_publishers, num_subscribers, topics, msg_types, publisher_configs=None):
     """
     Creates a ROS topology dictionary based on provided information.
@@ -52,36 +55,48 @@ def create_topology(num_publishers, num_subscribers, topics, msg_types, publishe
 
     return {"nodes": nodes}
 
+
+def load_topology_params(filename):
+    """
+    Loads ROS topology parameters from a YAML file.
+
+    Args:
+        filename: Path to the YAML file containing topology parameters.
+
+    Returns:
+        A dictionary containing the loaded parameters.
+    """
+    with open(filename) as f:
+        params = yaml.safe_load(f)  # Use safe_load for security
+
+    # Perform basic validation or transformation on loaded parameters if needed (optional)
+    return params
+
+
 # Example usage
-filename = "test_topology.json"
-topics = ["laser_topic", "image_topic", "pcl_topic", "speed_topic", "vector_topic", "byte_topic"]
-msg_types = ["laser_scan", "image", "point_cloud2", "twist", "vector3", "stamped8mb"]
+import json
+import os
 
-num_publishers = {"laser_topic": 100, "image_topic": 2, "pcl_topic": 1, "speed_topic": 1, "vector_topic": 2, "byte_topic": 1}
-num_subscribers = {"laser_topic": 2, "image_topic": 1, "pcl_topic": 3, "speed_topic": 2, "vector_topic": 1, "byte_topic": 1}
+pkg_dir = os.path.dirname(os.path.dirname(__file__))
+topology = "adv_topology"
+config_file = topology + ".yaml"
+out_file = topology + ".json"
+config_file = os.path.join(pkg_dir, "config", "topologies", config_file)
+out_file = os.path.join(pkg_dir, "scripts", "topologies", out_file)
 
-# Example publisher configurations (assuming only one configuration per topic for now)
-publisher_configs = {
-    "laser_topic": [{
-        "period_ms": 20,
-        "msg_pass_by": "shared_ptr"
-    }],
-    "image_topic": [{
-        "period_ms": 30,
-        "msg_pass_by": "shared_ptr"
-    }],
-    "pcl_topic": [{ 
-        "period_ms": 15,
-        "msg_pass_by": "shared_ptr"
-    }]
-}
+params = load_topology_params(config_file)
 
+num_publishers = params["num_publishers"]
+num_subscribers = params["num_subscribers"]
+topics = params["topics"]
+msg_types = params["msg_types"]
+publisher_configs = params.get("publisher_configs", None)  # Optional publisher configs
+
+# Create topology using loaded parameters
 topology = create_topology(num_publishers, num_subscribers, topics, msg_types, publisher_configs)
 
 # Print or save the topology dictionary in JSON format
-import json
-import os
-ws_dir = os.getcwd()
-filename = os.path.join(ws_dir, "src/ros2-performance/irobot_benchmark/topology", filename)
-with open(filename, "w") as f:
+
+with open(out_file, "w") as f:
     json.dump(topology, f, indent=4)
+

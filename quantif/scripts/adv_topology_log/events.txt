@@ -1,3 +1,0 @@
-Time[ms]    Caller                   Code  Description         
-0           SYSTEM                   0     [discovery] PDP completed
-0           SYSTEM                   0     [discovery] EDP completed
