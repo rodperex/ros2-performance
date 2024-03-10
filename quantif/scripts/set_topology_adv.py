@@ -1,11 +1,12 @@
 import yaml
 
 
-def create_topology(num_publishers, num_subscribers, topics, msg_types, publisher_configs=None):
+def create_topology(num_nodes, num_publishers, num_subscribers, topics, msg_types, publisher_configs=None):
     """
-    Creates a ROS topology dictionary based on provided information.
+    Creates a ROS topology dictionary based on provided information, appending node id to topic names.
 
     Args:
+        num_nodes: Number of nodes in the ROS topology.
         num_publishers: Dictionary mapping topic names to number of publishers.
         num_subscribers: Dictionary mapping topic names to number of subscribers.
         topics: List of topic names.
@@ -20,47 +21,35 @@ def create_topology(num_publishers, num_subscribers, topics, msg_types, publishe
     """
 
     nodes = []
+    for node_id in range(num_nodes):  # Loop to create nodes with unique IDs
+        node_info = {
+            "node_name": f"node_{node_id}",
+            "publishers": [],
+            "subscribers": []
+        }
 
-    # Publisher node
-    publisher_info = {
-        "node_name": "publisher",
-        "publishers": []
-    }
-    for topic, num_pub in num_publishers.items():
-        for _ in range(num_pub):  # Loop to add publishers for each topic
-            publisher_config = {}  # Initialize empty config for this publisher
-            if publisher_configs and topic in publisher_configs:
-                # Use configuration specific to this topic if available
-                publisher_config = publisher_configs[topic][0]  # Assuming first config for now (can be extended to handle a list)
-            publisher_info["publishers"].append({
-                "topic_name": topic,
-                "msg_type": msg_types[topics.index(topic)],
-                "period_ms": publisher_config.get("period_ms", 10),  # Use default if no config provided
-                "msg_pass_by": publisher_config.get("msg_pass_by", "shared_ptr"),  # Use default if no config provided
-                "qos_depth": publisher_config.get("qos_depth", 10),  # Use default if no config provided
-                "qos_history": publisher_config.get("qos_history", "keep_last"),  # Use default if no config provided
-                "qos_reliability": publisher_config.get("qos_reliability", "best_effort"),  # Use default if no config provided
-                "qos_durability": publisher_config.get("qos_durability", "volatile"),  # Use default if no config provided
-                "qos_deadline": publisher_config.get("qos_deadline", "infinite"),  # Use default if no config provided
-                "qos_lifespan": publisher_config.get("qos_lifespan", "infinite"),  # Use default if no config provided
-                "qos_liveliness": publisher_config.get("qos_liveliness", "automatic"),  # Use default if no config provided
-                "qos_liveliness_lease_duration": publisher_config.get("qos_liveliness_lease_duration", "infinite"),  # Use default if no config provided
-                "qos_avoid_ros_namespace_conventions": str(publisher_config.get("qos_avoid_ros_namespace_conventions", "false")).lower(),  # Use default if no config provided
-            })
-    nodes.append(publisher_info)
+        # Add publishers to each node with appended topic names
+        for topic, num_pub in num_publishers.items():
+            for _ in range(num_pub):
+                publisher_config = {}
+                if publisher_configs and topic in publisher_configs:
+                    publisher_config = publisher_configs[topic][0]
+                node_info["publishers"].append({
+                    "topic_name": f"{topic}_{node_id}",  # Append node_id to topic name
+                    "msg_type": msg_types[topics.index(topic)],
+                    "period_ms": publisher_config.get("period_ms", 10)
+                    # ... other publisher configurations (optional)
+                })
 
-    # Subscriber node (unchanged)
-    subscriber_info = {
-        "node_name": "subscriber",
-        "subscribers": []
-    }
-    for topic, num_sub in num_subscribers.items():
-        for _ in range(num_sub):  # Loop to add subscribers for each topic
-            subscriber_info["subscribers"].append({
-                "topic_name": topic,
-                "msg_type": msg_types[topics.index(topic)]
-            })
-    nodes.append(subscriber_info)
+        # Add subscribers to each node with appended topic names
+        for topic, num_sub in num_subscribers.items():
+            for _ in range(num_sub):
+                node_info["subscribers"].append({
+                    "topic_name": f"{topic}_{node_id}",  # Append node_id to topic name
+                    "msg_type": msg_types[topics.index(topic)]
+                })
+
+        nodes.append(node_info)
 
     return {"nodes": nodes}
 
@@ -95,6 +84,7 @@ out_file = os.path.join(pkg_dir, "scripts", "topologies", out_file)
 
 params = load_topology_params(config_file)
 
+num_nodes = params["nodes"]
 num_publishers = params["num_publishers"]
 num_subscribers = params["num_subscribers"]
 topics = params["topics"]
@@ -103,7 +93,7 @@ msg_types = params["msg_types"]
 publisher_configs = params.get("publisher_configs", None)  # Optional publisher configs
 
 # Create topology using loaded parameters
-topology = create_topology(num_publishers, num_subscribers, topics, msg_types, publisher_configs)
+topology = create_topology(num_nodes, num_publishers, num_subscribers, topics, msg_types, publisher_configs)
 
 # Print or save the topology dictionary in JSON format
 

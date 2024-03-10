@@ -1,20 +1,21 @@
 # ROS 2 topology parameters
+nodes: 10
 
 num_publishers:  # Dictionary mapping topic names to number of publishers
-  laser_topic: 100
-  image_topic: 100
-  pcl_topic: 100
-  speed_topic: 100
-  vector_topic: 100
-  byte_topic: 100
+  laser_topic: 10
+  image_topic: 13
+  pcl_topic: 11
+  speed_topic: 17
+  vector_topic: 7
+  byte_topic: 19
 
 num_subscribers:  # Dictionary mapping topic names to number of subscribers
-  laser_topic: 100
-  image_topic: 100
-  pcl_topic: 100
-  speed_topic: 100
-  vector_topic: 100
-  byte_topic: 100
+  laser_topic: 10
+  image_topic: 13
+  pcl_topic: 11
+  speed_topic: 17
+  vector_topic: 7
+  byte_topic: 19
 
 topics:  # List of topic names
   - laser_topic
