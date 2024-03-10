@@ -34,25 +34,25 @@ msg_types:  # List of message types corresponding to topics
 
 publisher_configs:  # Publisher-specific configurations
   laser_topic:  # Configurations for laser_topic
-    - period_ms: 20  # Publishing period in milliseconds
+    - freq_hz: 64  # Publishing frequency in hertz
       msg_pass_by: shared_ptr  # Message passing mechanism
 
   image_topic:  # Configurations for image_topic
-    - period_ms: 30
+    - freq_hz: 64  # Publishing frequency in hertz
       msg_pass_by: shared_ptr
 
   pcl_topic:  # Configurations for pcl_topic
-    - period_ms: 15
+    - freq_hz: 64  # Publishing frequency in hertz
       msg_pass_by: shared_ptr
 
   speed_topic:  # Configurations for speed_topic
-    - period_ms: 100  # Adjust these values as needed
+    - freq_hz: 64  # Publishing frequency in hertz
       msg_pass_by: shared_ptr
 
   vector_topic:  # Configurations for vector_topic
-    - period_ms: 50
+    - freq_hz: 64  # Publishing frequency in hertz
       msg_pass_by: shared_ptr
 
   byte_topic:  # Configurations for byte_topic
-    - period_ms: 200
+    - freq_hz: 64  # Publishing frequency in hertz
       msg_pass_by: shared_ptr

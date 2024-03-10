@@ -37,7 +37,7 @@ def create_topology(num_nodes, num_publishers, num_subscribers, topics, msg_type
                 node_info["publishers"].append({
                     "topic_name": f"{topic}_{node_id}",  # Append node_id to topic name
                     "msg_type": msg_types[topics.index(topic)],
-                    "period_ms": publisher_config.get("period_ms", 10)
+                    "freq_hz": publisher_config.get("freq_hz", 10)
                     # ... other publisher configurations (optional)
                 })
 

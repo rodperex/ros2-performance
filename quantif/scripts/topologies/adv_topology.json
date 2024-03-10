@@ -6,387 +6,387 @@
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_0",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_0",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_0",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_0",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_0",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_0",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_0",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_0",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_0",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_0",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_0",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_0",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -706,387 +706,387 @@
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_1",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_1",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_1",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_1",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_1",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_1",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_1",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_1",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_1",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_1",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_1",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_1",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -1406,387 +1406,387 @@
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_2",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_2",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_2",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_2",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_2",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_2",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_2",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_2",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_2",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_2",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_2",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_2",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -2106,387 +2106,387 @@
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_3",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_3",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_3",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_3",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_3",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_3",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_3",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_3",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_3",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_3",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_3",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_3",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -2806,387 +2806,387 @@
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_4",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_4",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_4",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_4",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_4",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_4",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_4",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_4",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_4",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_4",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_4",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_4",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -3506,387 +3506,387 @@
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_5",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_5",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_5",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_5",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_5",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_5",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_5",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_5",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_5",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_5",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_5",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_5",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -4206,387 +4206,387 @@
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_6",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_6",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_6",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_6",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_6",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_6",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_6",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_6",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_6",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_6",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_6",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_6",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -4906,387 +4906,387 @@
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_7",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_7",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_7",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_7",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_7",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_7",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_7",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_7",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_7",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_7",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_7",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_7",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -5606,387 +5606,387 @@
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_8",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_8",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_8",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_8",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_8",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_8",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_8",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_8",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_8",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_8",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_8",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_8",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [
@@ -6306,387 +6306,387 @@
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "laser_topic_9",
                     "msg_type": "laser_scan",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "image_topic_9",
                     "msg_type": "image",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "pcl_topic_9",
                     "msg_type": "point_cloud2",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "speed_topic_9",
                     "msg_type": "twist",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_9",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_9",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_9",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_9",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_9",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_9",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "vector_topic_9",
                     "msg_type": "vector3",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 },
                 {
                     "topic_name": "byte_topic_9",
                     "msg_type": "stamped8mb",
-                    "period_ms": 20
+                    "freq_hz": 64
                 }
             ],
             "subscribers": [

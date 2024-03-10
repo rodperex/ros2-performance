@@ -21,8 +21,10 @@ def load_experiment(filename):
 
 
 config_file = "adv.yaml"
-# config_file = sys.argv[1]
-# topology_file = sys.argv[2]
+
+if len(sys.argv) == 3: # Poor error handling
+    config_file = sys.argv[1]
+    topology_file = sys.argv[2]
 
 dir_path = os.path.dirname(__file__)
 pkg_dir = os.path.dirname(dir_path)
