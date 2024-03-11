@@ -38,12 +38,12 @@ publisher_configs:  # Publisher-specific configurations
     - freq_hz: 64  # Publishing frequency in hertz
       msg_pass_by: shared_ptr  # Message passing mechanism
       qos_depth: 10
-      qos_history: keep_last
-      qos_reliability: reliable
-      qos_durability: volatile
+      qos_history: keep_last # keep_last/keep_all/unknown
+      qos_reliability: reliable # system_default/reliable/best_effort/unknown
+      qos_durability: volatile # system_default/transient_local/transient/volatile/unknown
       qos_deadline: default
       qos_lifespan: default
-      qos_liveliness: system_default
+      qos_liveliness: system_default #system_default/automatic/manual_by_topic/unknown
       qos_liveliness_lease_duration: default
       qos_avoid_ros_namespace_conventions: false
   image_topic:  # Configurations for image_topoc
