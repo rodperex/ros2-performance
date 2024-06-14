@@ -78,7 +78,7 @@ private:
     std::chrono::milliseconds period = std::chrono::milliseconds(20),
     std::chrono::milliseconds max_edp_time = std::chrono::milliseconds(30 * 1000));
 
-  std::unique_ptr<std::thread> create_spin_thread(rclcpp::Executor::SharedPtr executor);
+  std::unique_ptr<std::thread> create_spin_thread(rclcpp::Executor::SharedPtr executor, SpinType spin_type);
 
   std::chrono::high_resolution_clock::time_point m_start_time;
 

@@ -20,12 +20,6 @@
 namespace performance_test
 {
 
-struct NamedExecutor
-{
-  std::shared_ptr<rclcpp::Executor> executor;
-  std::string name;
-};
-
 enum class ExecutorType
 {
   SINGLE_THREADED_EXECUTOR = 1,
@@ -38,6 +32,14 @@ enum class SpinType
   SPIN = 1,
   SPIN_SOME = 2,
   SPIN_FUTURE_COMPLETE = 3,
+  SPIN_RT = 4
+};
+
+struct NamedExecutor
+{
+  std::shared_ptr<rclcpp::Executor> executor;
+  std::string name;
+  SpinType spin_type;
 };
 
 std::ostream & operator<<(std::ostream & os, const ExecutorType & t);

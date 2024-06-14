@@ -75,6 +75,11 @@ void System::add_node(std::shared_ptr<performance_test::PerformanceNodeBase> nod
   } else {
     // Create a new executor with this ID
     auto ex = NamedExecutor();
+    if (executor_id == 99) {
+      ex.spin_type = SpinType::SPIN_RT;
+    } else {
+      ex.spin_type = m_spin_type;
+    }
     ex.executor = performance_test::make_executor(m_executor_type);
     ex.executor->add_node(node->get_node_base());
     ex.name = node->get_node_name();
@@ -111,9 +116,10 @@ void System::spin(std::chrono::seconds duration, bool wait_for_discovery, bool n
   for (const auto & pair : m_executors_map) {
     auto & name = pair.second.name;
     auto & executor = pair.second.executor;
+    auto & spin_type = pair.second.spin_type;
 
     // Spin each executor in a separate thread
-    auto thread = create_spin_thread(executor);
+    auto thread = create_spin_thread(executor, spin_type);
 
     if (name_threads) {
       pthread_setname_np(thread->native_handle(), name.c_str());
@@ -136,11 +142,11 @@ void System::spin(std::chrono::seconds duration, bool wait_for_discovery, bool n
   }
 }
 
-std::unique_ptr<std::thread> System::create_spin_thread(rclcpp::Executor::SharedPtr executor)
+std::unique_ptr<std::thread> System::create_spin_thread(rclcpp::Executor::SharedPtr executor, SpinType spin_type)
 {
   std::unique_ptr<std::thread> thread;
 
-  switch (m_spin_type) {
+  switch (spin_type) {
     case SpinType::SPIN:
       thread = std::make_unique<std::thread>(
         [executor]() {
@@ -161,6 +167,18 @@ std::unique_ptr<std::thread> System::create_spin_thread(rclcpp::Executor::Shared
           executor->spin_until_future_complete(m_promise.get_future());
         });
       break;
+    case SpinType::SPIN_RT:
+      std::cout << "SPIN_RT" << std::endl;
+      thread = std::make_unique<std::thread>(
+        [executor]() {
+          sched_param sch;
+          sch.sched_priority = 60;
+          if (pthread_setschedparam(pthread_self(), SCHED_FIFO, &sch) == -1) {
+            perror("pthread_setschedparam failed");
+            exit(-1);
+          }
+          executor->spin();
+        });
   }
 
   return thread;

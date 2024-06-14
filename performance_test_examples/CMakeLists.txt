@@ -40,6 +40,9 @@ ament_target_dependencies(simple_client_service_main rclcpp performance_test per
 add_executable(json_system_main src/json_system_main.cpp)
 ament_target_dependencies(json_system_main rclcpp performance_test performance_test_factory)
 
+add_executable(quantif_simple_arch src/quantif_simple_arch.cpp)
+ament_target_dependencies(quantif_simple_arch rclcpp performance_test performance_test_factory)
+
 install(TARGETS
   publisher_nodes_main
   subscriber_nodes_main
@@ -48,6 +51,7 @@ install(TARGETS
   simple_pub_sub_main
   simple_client_service_main
   json_system_main
+  quantif_simple_arch
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
