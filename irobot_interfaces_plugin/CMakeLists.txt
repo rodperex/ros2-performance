@@ -19,6 +19,7 @@ find_package(performance_test_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(vision_msgs REQUIRED)
 
 set( CUSTOM_MSGS
   "msg/StampedInt64.msg"
@@ -47,6 +48,8 @@ set( CUSTOM_MSGS
   "msg/PointCloud2.msg"
   "msg/Twist.msg"
   "msg/Vector3.msg"
+  "msg/CameraInfo.msg"
+  "msg/Detection2dArray.msg"
 )
 
 set ( CUSTOM_SRVS
@@ -56,7 +59,7 @@ set ( CUSTOM_SRVS
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${CUSTOM_MSGS}
   ${CUSTOM_SRVS}
-  DEPENDENCIES std_msgs sensor_msgs performance_test_msgs
+  DEPENDENCIES std_msgs sensor_msgs vision_msgs performance_test_msgs
 )
 
 generate_factory_plugin("${CUSTOM_MSGS}" "${CUSTOM_SRVS}")
