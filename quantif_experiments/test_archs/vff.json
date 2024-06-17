@@ -1,0 +1,56 @@
+{
+  "nodes": [
+      {
+        "node_name": "follower",
+        "subscribers":[
+            {"topic_name":"attractive_vector", "msg_type":"vector3"},
+            {"topic_name":"repulsive_vector", "msg_type":"vector3"}
+          ],
+        "publishers": [
+              {"topic_name": "out_vel", "msg_type": "twist", "freq_hz": 10}
+          ],
+        "executor_id":1
+      },
+
+      {
+        "node_name": "obstacle_detector",
+        "subscribers":[
+            {"topic_name":"scan", "msg_type":"laser_scan"}
+          ],
+        "publishers": [
+            {"topic_name":"repulsive_vector", "msg_type": "vector3", "freq_hz": 10}
+          ],
+        "executor_id":1
+      },
+
+      {
+        "node_name": "object_tracker",
+        "subscribers":[
+            {"topic_name":"camera_info", "msg_type":"camera_info"},
+            {"topic_name":"input_image", "msg_type":"image"},
+            {"topic_name":"out_detection_2d", "msg_type": "detection2d_array"}
+          ],
+        "publishers": [
+            {"topic_name": "attractive_vector", "msg_type": "vector3", "freq_hz": 10}
+          ],
+        "executor_id":1
+      },
+
+      {
+        "node_name": "camera_driver",
+        "publishers": [
+            {"topic_name":"camera_info", "msg_type":"camera_info", "freq_hz": 1000},
+            {"topic_name":"input_image", "msg_type":"image", "freq_hz": 25}
+          ],
+        "executor_id":1
+      },
+
+      {
+        "node_name": "laser_driver",
+        "publishers": [
+            {"topic_name":"scan", "msg_type":"laser_scan", "freq_hz": 10}
+          ],
+        "executor_id":1
+      }
+    ]
+}
