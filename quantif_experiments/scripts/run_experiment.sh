@@ -6,7 +6,7 @@ rmw=$1
 arch=$2
 
 # Define the experiment parameters
-times=(1 2) # senconds
+times=(60) # senconds
 use_ipc_values=(0 1)
 load_values=("low" "medium" "high")
 experiment_path=$THIS_DIR/../results
@@ -39,11 +39,15 @@ fi
 # Invoke RMW-specific script forwarding all command-line arguments to it
 source $RMW_SPECIFIC_SETUP_SCRIPT "$@"
 
+num_cpus=$(nproc)
+total_ram=$(free -m | awk '/^Mem:/ {print $2}')
+mem=$((total_ram / 2))
+
 # Function to run high stress command
 run_high_stress() {
   local duration=$1
   echo "Running stress command in background for $duration seconds"
-  stress -c 4 -i 4 -m 6 --vm-bytes 256M -t "${duration}s" &
+  stress -c $num_cpus -i 10 -m 1 --vm-bytes "${mem}M" -t "${duration}s" &
   stress_pid=$!
 }
 
@@ -62,6 +66,11 @@ for t in "${times[@]}"; do
 
       ros2 run quantif_experiments quantif --use_ipc $use_ipc -t $t --experiment_path "$experiment_path" --arch $arch --rmw $rmw --load $load --verbose 0
       
+      # Wait for stress command to finish if it was started
+      if [ "$load" == "high" ]; then
+        wait "$stress_pid"
+      fi
+
       echo "Experiment with -t $t, --use_ipc $use_ipc, and --load $load completed"
       echo "-------------------------------------------------"
     done
