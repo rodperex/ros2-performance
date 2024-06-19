@@ -1,10 +1,12 @@
 #!/bin/bash
 
+THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+
 # Define the experiment parameters
 times=(1 2)
 use_ipc_values=(0 1)
 load_values=("low" "medium" "high")
-experiment_path="$HOME/robots/ros2/perf_ws/src/ros2-performance/quantif_experiments/results"
+experiment_path=$THIS_DIR/../results
 arch="simple"
 rmw="fast"
 
