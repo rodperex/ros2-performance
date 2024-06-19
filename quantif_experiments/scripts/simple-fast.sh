@@ -10,6 +10,24 @@ experiment_path=$THIS_DIR/../results
 arch="simple"
 rmw="fast"
 
+if [[ "$rmw" == "fast" ]]; then
+  RMW=rmw_fastrtps_cpp
+elif [[ "$rmw" == "cyclone" ]]; then
+  RMW=rmw_cyclonedds_cpp
+fi
+
+echo "Using RMW_IMPLEMENTATION=${RMW}"
+export RMW_IMPLEMENTATION=$RMW
+
+RMW_SPECIFIC_SETUP_SCRIPT=$THIS_DIR/../../scripts/rmw/$RMW/setup.sh
+if [ ! -f "$RMW_SPECIFIC_SETUP_SCRIPT" ]; then
+    echo "$RMW_SPECIFIC_SETUP_SCRIPT does not exist."
+    echo "Can't run RMW configuration for this RMW implementation."
+fi
+
+# Invoke RMW-specific script forwarding all command-line arguments to it
+source $RMW_SPECIFIC_SETUP_SCRIPT "$@"
+
 # Function to run stress command
 run_high_stress() {
   local duration=$1
