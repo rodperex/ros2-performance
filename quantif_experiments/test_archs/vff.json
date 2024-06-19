@@ -7,7 +7,7 @@
             {"topic_name":"repulsive_vector", "msg_type":"vector3"}
           ],
         "publishers": [
-              {"topic_name": "out_vel", "msg_type": "twist", "freq_hz": 10}
+              {"topic_name": "cmd_vel", "msg_type": "twist", "freq_hz": 10}
           ],
         "executor_id":1
       },
@@ -49,6 +49,14 @@
         "node_name": "laser_driver",
         "publishers": [
             {"topic_name":"scan", "msg_type":"laser_scan", "freq_hz": 10}
+          ],
+        "executor_id":1
+      },
+
+      {
+        "node_name": "motor_driver",
+        "subscribers":[
+            {"topic_name":"cmd_vel", "msg_type":"twist"}
           ],
         "executor_id":1
       }
