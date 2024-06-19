@@ -23,9 +23,15 @@ public:
 
   ExperimentsOptions(int argc, char ** argv)
   {
-    cxxopts::Options options(argv[0], "ROS2 performance factory example");
+    cxxopts::Options options(argv[0], "ROS2 performance experiments");
 
     options.add_options()("h,help", "print help")(
+      "rmw", "rmw implementation (fast/cyclone/zenoh)",
+      cxxopts::value<std::string>(rmw_implementation)->default_value(rmw_implementation))(
+      "arch", "Architecture to test",
+      cxxopts::value<std::string>(architecture)->default_value(architecture))(
+      "load", "Computational load of the system (low/medium/high)",
+      cxxopts::value<std::string>(load)->default_value(load))(
       "executor", "the system executor:\n\t\t\t\t1:SingleThread 2:StaticSingleThread",
       cxxopts::value<int>(executor)->default_value(std::to_string(executor)), "<1/2>")(
       "subs", "Number of subscriber nodes",
@@ -117,6 +123,10 @@ public:
   std::string events_file_path = "";
   std::string ru_file_path = "";
   std::string latency_file_path = "";
+  // just for organization (not really used to set the experiment but for saving results)
+  std::string rmw_implementation = "fast";
+  std::string architecture = "simple";
+  std::string load = "low";
 };
 
 #endif  // EXPERIMENTS_OPTIONS_HPP_

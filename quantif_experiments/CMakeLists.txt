@@ -15,11 +15,11 @@ find_package(rclcpp REQUIRED)
 find_package(performance_test REQUIRED)
 find_package(performance_test_factory REQUIRED)
 
-add_executable(simple_arch src/quantif_simple_arch.cpp)
-ament_target_dependencies(simple_arch rclcpp performance_test performance_test_factory)
+add_executable(quantif src/quantif_experiment.cpp)
+ament_target_dependencies(quantif rclcpp performance_test performance_test_factory)
 
 install(TARGETS
-  simple_arch
+  quantif
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
