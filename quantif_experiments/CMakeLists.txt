@@ -14,9 +14,10 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(performance_test REQUIRED)
 find_package(performance_test_factory REQUIRED)
+find_package(irobot_interfaces_plugin REQUIRED)
 
 add_executable(quantif src/quantif_experiment.cpp)
-ament_target_dependencies(quantif rclcpp performance_test performance_test_factory)
+ament_target_dependencies(quantif rclcpp performance_test performance_test_factory irobot_interfaces_plugin )
 
 install(TARGETS
   quantif

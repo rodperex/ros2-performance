@@ -49,6 +49,7 @@ set( CUSTOM_MSGS
   "msg/Twist.msg"
   "msg/Vector3.msg"
   "msg/CameraInfo.msg"
+  "msg/Detection2d.msg"
   "msg/Detection2dArray.msg"
 )
 
