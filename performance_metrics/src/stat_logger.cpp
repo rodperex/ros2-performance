@@ -27,10 +27,6 @@ void log_total_stats(
   double average_latency,
   std::ostream & stream)
 {
-  const char separator = ' ';
-  const int wide_space = 15;
-  const int narrow_space = 10;
-
   double total_lost_percentage =
     static_cast<double>(total_lost) / (total_received + total_lost) * 100;
   double total_late_percentage =
@@ -39,28 +35,25 @@ void log_total_stats(
     static_cast<double>(total_too_late) / total_received * 100;
 
   // log header
-  stream << std::left  << std::setfill(separator) << "received[#]";
-  stream << std::left <<  std::setfill(separator) << ";mean[us]";
-  stream << std::left <<  std::setfill(separator) << ";late[#]";
-  stream << std::left <<  std::setfill(separator) << ";late[%]";
-  stream << std::left  << std::setfill(separator) << ";too_late[#]";
-  stream << std::left  << std::setfill(separator) << ";too_late[%]";
-  stream << std::left <<  std::setfill(separator) << ";lost[#]";
-  stream << std::left <<  std::setfill(separator) << ";lost[%]";
+  stream << "received[#]";
+  stream << ";mean[us]";
+  stream << ";late[#]";
+  stream << ";late[%]";
+  stream << ";too_late[#]";
+  stream << ";too_late[%]";
+  stream << ";lost[#]";
+  stream << ";lost[%]";
   stream << std::endl;
 
   // log total values
-  stream << std::left  << std::setfill(separator) << total_received;
-  stream << std::left <<  std::setfill(separator) << average_latency;
-  stream << std::left <<  std::setfill(separator) << total_late;
-  stream << std::left <<  std::setfill(separator) <<
-    std::setprecision(4) << total_late_percentage;
-  stream << std::left  << std::setfill(separator) << total_too_late;
-  stream << std::left  << std::setfill(separator) <<
-    std::setprecision(4) << total_too_late_percentage;
-  stream << std::left <<  std::setfill(separator) << total_lost;
-  stream << std::left <<  std::setfill(separator) <<
-    std::setprecision(4) << total_lost_percentage;
+  stream << total_received << ";";
+  stream << average_latency << ";";
+  stream << total_late << ";";
+  stream << std::setprecision(4) << total_late_percentage << ";";
+  stream << total_too_late << ";";
+  stream << std::setprecision(4) << total_too_late_percentage << ";";
+  stream << total_lost << ";";
+  stream << std::setprecision(4) << total_lost_percentage;
   stream << std::endl;
 }
 
@@ -69,61 +62,43 @@ void log_trackers_latency_all_stats(
   const std::vector<Tracker> & trackers,
   const std::string & title)
 {
-  const char separator = ' ';
-  const int wide_space = 15;
-  const int narrow_space = 10;
 
-  auto log_header = [&stream, wide_space, narrow_space, separator](const std::string & header_title)
+  auto log_header = [&stream](const std::string & header_title)
     {
       stream << std::endl;
       stream << header_title << std::endl;
-      stream << std::left << "node";
-      stream << std::left << ";" << "topic";
-      stream << std::left <<  ";" << "size[b]";
-      stream << std::left << ";" << "received[#]";
-      stream << std::left <<  ";" << "late[#]";
-      stream << std::left << ";" << "too_late[#]";
-      stream << std::left <<  ";" << "lost[#]";
-      stream << std::left <<  ";" << "mean[us]";
-      stream << std::left <<  ";" << "sd[us]";
-      stream << std::left <<  ";" << "min[us]";
-      stream << std::left <<  ";" << "max[us]";
-      stream << std::left <<  ";" << "freq[hz]";
-      stream << std::left  << ";" <<
-        "throughput[Kb/s]";
-
+      stream << "node" << ";";
+      stream << "topic" << ";";
+      stream << "size[b]" << ";";
+      stream << "received[#]" << ";";
+      stream << "late[#]" << ";";
+      stream << "too_late[#]" << ";";
+      stream << "lost[#]" << ";";
+      stream << "mean[us]" << ";";
+      stream << "sd[us]" << ";";
+      stream << "min[us]" << ";";
+      stream << "max[us]" << ";";
+      stream << "freq[hz]" << ";";
+      stream << "throughput[Kb/s]";
       stream << std::endl;
     };
 
-  auto log_stats_line = [&stream, wide_space, narrow_space, separator](
+  auto log_stats_line = [&stream](
     const Tracker & tracker)
     {
-      stream << std::left << ";" <<
-        tracker.get_node_name();
-      stream << std::left << ";" <<
-        tracker.get_entity_name();
-      stream << std::left <<  ";" <<
-        tracker.size();
-      stream << std::left << ";" <<
-        tracker.received();
-      stream << std::left <<  ";" <<
-        tracker.late();
-      stream << std::left << ";" <<
-        tracker.too_late();
-      stream << std::left <<  ";" <<
-        tracker.lost();
-      stream << std::left <<  ";" <<
-        std::round(tracker.stat().mean());
-      stream << std::left <<  ";" <<
-        std::round(tracker.stat().stddev());
-      stream << std::left <<  ";" <<
-        std::round(tracker.stat().min());
-      stream << std::left <<  ";" <<
-        std::round(tracker.stat().max());
-      stream << std::left <<  ";" <<
-        tracker.frequency();
-      stream << std::left << ";" <<
-        (tracker.throughput() / 1024);
+      stream << tracker.get_node_name() << ";";
+      stream << tracker.get_entity_name() << ";";
+      stream << tracker.size() << ";";
+      stream << tracker.received() << ";";
+      stream << tracker.late() << ";";
+      stream << tracker.too_late() << ";";
+      stream << tracker.lost() << ";";
+      stream << std::round(tracker.stat().mean()) << ";";
+      stream << std::round(tracker.stat().stddev()) << ";";
+      stream << std::round(tracker.stat().min()) << ";";
+      stream << std::round(tracker.stat().max()) << ";";
+      stream << tracker.frequency() << ";";
+      stream << (tracker.throughput() / 1024);
 
       stream << std::endl;
     };
