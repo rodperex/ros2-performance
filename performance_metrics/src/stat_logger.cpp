@@ -40,13 +40,13 @@ void log_total_stats(
 
   // log header
   stream << std::left  << std::setfill(separator) << "received[#]";
-  stream << std::left <<  std::setfill(separator) << "mean[us]";
-  stream << std::left <<  std::setfill(separator) << "late[#]";
-  stream << std::left <<  std::setfill(separator) << "late[%]";
-  stream << std::left  << std::setfill(separator) << "too_late[#]";
-  stream << std::left  << std::setfill(separator) << "too_late[%]";
-  stream << std::left <<  std::setfill(separator) << "lost[#]";
-  stream << std::left <<  std::setfill(separator) << "lost[%]";
+  stream << std::left <<  std::setfill(separator) << ";mean[us]";
+  stream << std::left <<  std::setfill(separator) << ";late[#]";
+  stream << std::left <<  std::setfill(separator) << ";late[%]";
+  stream << std::left  << std::setfill(separator) << ";too_late[#]";
+  stream << std::left  << std::setfill(separator) << ";too_late[%]";
+  stream << std::left <<  std::setfill(separator) << ";lost[#]";
+  stream << std::left <<  std::setfill(separator) << ";lost[%]";
   stream << std::endl;
 
   // log total values
