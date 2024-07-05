@@ -39,7 +39,7 @@
       {
         "node_name": "camera_driver",
         "publishers": [
-            {"topic_name":"camera_info", "msg_type":"camera_info", "freq_hz": 1000},
+            {"topic_name":"camera_info", "msg_type":"camera_info", "freq_hz": 0.001},
             {"topic_name":"input_image", "msg_type":"image", "freq_hz": 25}
           ],
         "executor_id":1
