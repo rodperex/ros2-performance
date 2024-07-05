@@ -60,5 +60,10 @@
           ],
         "executor_id":1
       }
+    ],
+    
+    "critical_path": [
+        {"start_node": "camera_driver", "end_node": "object_tracker", "topic": "camera_info"},
+        {"start_node": "camera_driver", "end_node": "object_tracker", "topic": "input_image"}
     ]
 }
