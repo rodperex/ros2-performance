@@ -26,12 +26,20 @@
       {
         "node_name": "object_tracker",
         "subscribers":[
-            {"topic_name":"camera_info", "msg_type":"camera_info"},
-            {"topic_name":"input_image", "msg_type":"image"},
             {"topic_name":"out_detection_2d", "msg_type": "detection2d_array"}
           ],
         "publishers": [
             {"topic_name": "attractive_vector", "msg_type": "vector3", "freq_hz": 10}
+          ],
+        "executor_id":1
+      },
+      {
+        "node_name": "detector",
+        "subscribers":[
+            {"topic_name":"camera_info", "msg_type":"camera_info"},
+            {"topic_name":"input_image", "msg_type":"image"}          ],
+        "publishers": [
+            {"topic_name": "out_detection_2d", "msg_type": "detection2d_array", "freq_hz": 10}
           ],
         "executor_id":1
       },
