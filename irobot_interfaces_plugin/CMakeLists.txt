@@ -51,6 +51,13 @@ set( CUSTOM_MSGS
   "msg/CameraInfo.msg"
   "msg/Detection2d.msg"
   "msg/Detection2dArray.msg"
+  "msg/NavigateToPose.msg"
+  "msg/NavigateToPoseFeedback.msg"
+  "msg/Path.msg"
+  "msg/Odometry.msg"
+  "msg/TfMessage.msg"
+  "msg/TfStaticMessage.msg"
+  "msg/Pose.msg"
 )
 
 set ( CUSTOM_SRVS

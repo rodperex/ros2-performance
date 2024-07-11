@@ -1,0 +1,7 @@
+performance_test_msgs/PerformanceHeader header
+
+string child_frame_id "base_link"
+
+geometry_msgs/PoseWithCovariance pose
+
+geometry_msgs/TwistWithCovariance twist
