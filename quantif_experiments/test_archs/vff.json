@@ -34,25 +34,23 @@
         "executor_id":1
       },
       {
-        "node_name": "detector",
+        "node_name": "ai_detector",
         "subscribers":[
             {"topic_name":"camera_info", "msg_type":"camera_info"},
-            {"topic_name":"input_image", "msg_type":"image"}          ],
+            {"topic_name":"rgb_image", "msg_type":"image"}          ],
         "publishers": [
             {"topic_name": "out_detection_2d", "msg_type": "detection2d_array", "freq_hz": 10}
           ],
         "executor_id":1
       },
-
       {
         "node_name": "camera",
         "publishers": [
             {"topic_name":"camera_info", "msg_type":"camera_info", "freq_hz": 25},
-            {"topic_name":"input_image", "msg_type":"image", "freq_hz": 25}
+            {"topic_name":"rgb_image", "msg_type":"image", "freq_hz": 25}
           ],
         "executor_id":1
       },
-
       {
         "node_name": "laser",
         "publishers": [
@@ -60,7 +58,6 @@
           ],
         "executor_id":1
       },
-
       {
         "node_name": "base_controller",
         "subscribers":[
@@ -72,6 +69,6 @@
     
     "critical_path": [
         {"start_node": "camera_driver", "end_node": "object_tracker", "topic": "camera_info"},
-        {"start_node": "camera_driver", "end_node": "object_tracker", "topic": "input_image"}
+        {"start_node": "camera_driver", "end_node": "object_tracker", "topic": "rgb_image"}
     ]
 }
