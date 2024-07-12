@@ -58,6 +58,9 @@ set( CUSTOM_MSGS
   "msg/TfMessage.msg"
   "msg/TfStaticMessage.msg"
   "msg/Pose.msg"
+  "msg/JointTrajectoryPoint.msg"
+  "msg/JointTrajectory.msg"
+  "msg/JointState.msg"
 )
 
 set ( CUSTOM_SRVS

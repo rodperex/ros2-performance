@@ -1,2 +1,3 @@
 performance_test_msgs/PerformanceHeader header
-irobot_interfaces_plugin/Detection2d[3] data
+
+irobot_interfaces_plugin/Detection2d[3] detections
