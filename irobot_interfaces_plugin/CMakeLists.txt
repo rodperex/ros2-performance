@@ -61,6 +61,8 @@ set( CUSTOM_MSGS
   "msg/JointTrajectoryPoint.msg"
   "msg/JointTrajectory.msg"
   "msg/JointState.msg"
+  "msg/Detection3d.msg"
+  "msg/Detection3dArray.msg"
 )
 
 set ( CUSTOM_SRVS
