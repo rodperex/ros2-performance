@@ -19,7 +19,8 @@
             {"topic_name":"goal", "msg_type": "navigate_to_pose", "freq_hz": 0.05}
           ],
           "subscribers":[
-            {"topic_name":"navigation_feedback", "msg_type":"navigate_to_pose_feedback"}
+            {"topic_name":"navigation_feedback", "msg_type":"navigate_to_pose_feedback"},
+            {"topic_name":"tf", "msg_type":"tf_message"}
           ],
         "executor_id":1
       },
