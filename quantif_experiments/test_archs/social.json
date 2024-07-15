@@ -144,14 +144,14 @@
             {"topic_name":"out_detection_3d", "msg_type":"detection3d_array"}
           ],
         "publishers": [
-            {"topic_name":"tf", "msg_type":"tf_message", "freq_hz": 10}
+            {"topic_name":"collision_point_cloud", "msg_type":"point_cloud2", "freq_hz": 10}
           ],
         "executor_id":1
       },
       {
         "node_name": "manipulation_system",
         "subscribers":[
-            {"topic_name":"point_cloud", "msg_type":"point_cloud2"},
+            {"topic_name":"collision_point_cloud", "msg_type":"point_cloud2"},
             {"topic_name":"tf", "msg_type":"tf_message"}
           ],
         "publishers": [
