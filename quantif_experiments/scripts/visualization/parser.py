@@ -14,9 +14,63 @@ import pandas as pd
 # Experiment configuration to load result files
 EXPERIMENT_ARCHS = ['simple', 'medium', 'complex']
 RMW_IMPLEMENTATIONS = ['fast', 'cyclone', 'zenoh']
-EXPERIMENT_TIMES = [5]
-EXPERIMENT_LOADS = ['low', 'medium', 'high']
-LATENCY_RESULT_FILE_FORMAT = 'latency_all_ipc-{ipc}_{time}s_{load}.txt'
+EXPERIMENT_TIMES = [100]
+EXPERIMENT_STRESS = ['low', 'medium', 'high']
+
+# Format of result files
+LATENCY_RESULT_FILE_FORMAT = 'latency_all_ipc-{ipc}_{time}s_{stress}.txt'
+RESOURCES_RESULT_FILE_FORMAT = 'resources_ipc-{ipc}_{time}s_{stress}.txt'
+
+# CSV Header remapping. Original names are not used, only here for backup
+ORIGINAL_LATENCY_HEADER = [
+  'node',
+  'topic',
+  'size[b]',
+  'received[#]',
+  'late[#]',
+  'too_late[#]',
+  'lost[#]',
+  'mean[us]',
+  'sd[us]',
+  'min[us]',
+  'max[us]',
+  'freq[hz]',
+  'throughput[Kb/s]',
+]
+NEW_LATENCY_HEADER = [
+  'Node',
+  'Topic',
+  'Size',
+  'Msg Received',
+  'Msg Late',
+  'Msg Too Late',
+  'Msg Lost',
+  'Mean',
+  'Std',
+  'Min',
+  'Max',
+  'Freq',
+  'Throughput',
+]
+ORIGINAL_RES_HEADER = [
+  'time[ms]',
+  'cpu[%]',
+  'arena[KB]',
+  'in_use[KB]',
+  'mmap[KB]',
+  'rss[KB]',
+  'vsz[KB]',
+]
+NEW_RES_HEADER = [
+  'Time',
+  'CPU',
+  # TODO: Decide which one is the important one (rss?)
+  'arena',
+  'in_use',
+  'mmap',
+  'rss',
+  'vsz',
+]
 
 def add_extra_cols(data, extra_cols):
   """ Add extra columns with experiment metadata (ipc, rmw, etc) """
@@ -37,8 +91,8 @@ def read_latency_file(latency_file, extra_cols={}):
   sub_stats_str = ''.join(file_lines[subs_idx + 1 : pubs_idx - 1])
   pub_stats_str = ''.join(file_lines[pubs_idx + 1:])
   # Feed the stats strings to pandas and build dataframes
-  data_subs = pd.read_csv(io.StringIO(sub_stats_str), sep=';')
-  data_pubs = pd.read_csv(io.StringIO(pub_stats_str), sep=';')
+  data_subs = pd.read_csv(io.StringIO(sub_stats_str), sep=';', names=NEW_LATENCY_HEADER, header=0)
+  data_pubs = pd.read_csv(io.StringIO(pub_stats_str), sep=';', names=NEW_LATENCY_HEADER, header=0)
   # Add a new column to differentiate between pubs and subs stats
   data_subs['Pub/Sub Type'] = 'Subscription'
   data_pubs['Pub/Sub Type'] = 'Publisher'
@@ -49,13 +103,13 @@ def read_latency_file(latency_file, extra_cols={}):
 
 def read_resources_file(resources_file, extra_cols={}):
   """ Read the file with the resources results data and return a DataFrame """
-  data = pd.read_csv(resources_file)
+  data = pd.read_csv(resources_file, delim_whitespace=True, names=NEW_RES_HEADER, header=0)
   add_extra_cols(data, extra_cols)
   return data
 
-def aggregate_latency_results(results_path):
-  """ Read all latency result files from the "results" dir.
-      Return a DataFrame with all the data merged.
+def aggregate_results(results_path, file_template, read_file_func):
+  """ Generic function to read and aggregate result files.
+      Returns a DataFrame with all the data merged.
   """
   total_data = None
   for arch in EXPERIMENT_ARCHS:
@@ -66,29 +120,41 @@ def aggregate_latency_results(results_path):
         test_path = os.path.join(results_path, arch, rmw)
         if os.path.isdir(test_path):
           for t in EXPERIMENT_TIMES:
-            for load in EXPERIMENT_LOADS:
-              latency_file_no_ipc = LATENCY_RESULT_FILE_FORMAT.format(
-                ipc=0, time=t, load=load)
-              latency_file_ipc = LATENCY_RESULT_FILE_FORMAT.format(
-                ipc=1, time=t, load=load)
+            for stress in EXPERIMENT_STRESS:
+              latency_file_no_ipc = file_template.format(
+                ipc=0, time=t, stress=stress)
+              latency_file_ipc = file_template.format(
+                ipc=1, time=t, stress=stress)
               extra_cols = {
                 'Architecture': arch,
                 'RMW': rmw,
                 'Test Duration': t,
-                'CPU Load': load,
+                'CPU Stress': stress,
                 'IPC': 0,
               }
-              test_data_no_ipc = read_latency_file(
+              test_data_no_ipc = read_file_func(
                 os.path.join(test_path, latency_file_no_ipc),
                 extra_cols)
               extra_cols['IPC'] = 1
-              test_data_ipc = read_latency_file(
+              test_data_ipc = read_file_func(
                 os.path.join(test_path, latency_file_ipc),
                 extra_cols)
               total_data = pd.concat(
                 [total_data, test_data_no_ipc, test_data_ipc],
                 ignore_index=True)
   return total_data
+
+def aggregate_latency_results(results_path):
+  """ Read all latency result files from the "results" dir.
+      Return a DataFrame with all the data merged.
+  """
+  return aggregate_results(results_path, LATENCY_RESULT_FILE_FORMAT, read_latency_file)
+
+def aggregate_resources_results(results_path):
+  """ Read all resources result files from the "results" dir.
+      Return a DataFrame with all the data merged.
+  """
+  return aggregate_results(results_path, RESOURCES_RESULT_FILE_FORMAT, read_resources_file)
 
 
 if __name__ == '__main__':
@@ -100,14 +166,27 @@ if __name__ == '__main__':
   latency_data = aggregate_latency_results('../../results')
   print(F"Latency data columns:\n{latency_data.columns}")
   print(F"Latency data:\n{latency_data}")
-  print_cols = [
-    'node',
-    'topic',
+  latency_print_cols = [
+    'Node',
+    'Topic',
     'Pub/Sub Type',
     'Architecture',
     'RMW',
     'Test Duration',
-    'CPU Load',
+    'CPU Stress',
     'IPC'
   ]
-  print(F"Latency data filtered:\n{latency_data[print_cols]}")
+  print(F"Latency data filtered:\n{latency_data[latency_print_cols]}")
+  print(F"Resources data columns:\n{res_data.columns}")
+  print(F"Resources data:\n{res_data}")
+  res_print_cols = [
+    'Time',
+    'CPU',
+    'arena',
+    'in_use',
+    'Architecture',
+    'RMW',
+    'CPU Stress',
+    'IPC'
+  ]
+  print(F"Resources data filtered:\n{res_data[res_print_cols]}")
