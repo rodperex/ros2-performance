@@ -6,7 +6,7 @@ rmw=$1
 arch=$2
 
 # Define the experiment parameters
-times=(1 2) # seconds
+times=(10 20) # seconds
 use_ipc_values=(0 1)
 load_values=("low" "medium" "high")
 experiment_path=$THIS_DIR/../results
@@ -16,6 +16,8 @@ if [[ "$rmw" == "fast" ]]; then
   RMW=rmw_fastrtps_cpp
 elif [[ "$rmw" == "cyclone" ]]; then
   RMW=rmw_cyclonedds_cpp
+elif [[ "$rmw" == "zenoh" ]]; then
+  RMW=rmw_zenoh_cpp
 else
   echo "Unknown RMW implementation: $rmw"
   return
@@ -88,7 +90,7 @@ run_stress() {
     echo "  - Memory: ${mem}M"
     echo "  - CPUs: $cpus"
     echo "  - IO operations: $io_ops"
-    stress -c $cpus -i $io_ops -m 1 --vm-bytes "${mem}M" -t "${duration}s"
+    stress -c $cpus -i $io_ops -m 1 --vm-bytes "${mem}M" -t "${duration}s" &
     stress_pid=$!
   fi
 }
@@ -117,6 +119,15 @@ for t in "${times[@]}"; do
     done
   done
 done
+
+# After running experiments, stop shared-memory routers
+if [[ "$rmw" == "cyclone" ]]; then
+  echo "Stopping iox-roudi router..."
+  killall iox-roudi
+elif [[ "$rmw" == "zenoh" ]]; then
+  echo "Stopping zenoh router..."
+  killall rmw_zenohd
+fi
 
 echo ""
 echo "ALL $exp EXPERIMENTS COMPLETED"
