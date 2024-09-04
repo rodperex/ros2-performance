@@ -6,7 +6,7 @@ rmw=$1
 arch=$2
 
 # Define the experiment parameters
-times=(10 20) # seconds
+times=(1 2) # seconds
 use_ipc_values=(0 1)
 load_values=("low" "medium" "high")
 experiment_path=$THIS_DIR/../results
