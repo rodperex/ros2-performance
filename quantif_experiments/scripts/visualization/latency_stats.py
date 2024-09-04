@@ -21,6 +21,7 @@ def main():
     'IPC'
   ]
   print(F"Latency data filtered:\n{latency_data[print_cols]}")
+  latency_data.to_csv("latency_data.csv")
 
 
 if __name__ == '__main__':

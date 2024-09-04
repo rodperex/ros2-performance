@@ -90,8 +90,6 @@ int main(int argc, char ** argv)
 
   ru_logger.stop();
 
-  rclcpp::shutdown();
-
   std::this_thread::sleep_for(500ms);
 
   ros2_system.log_latency_all_stats();
@@ -102,4 +100,12 @@ int main(int argc, char ** argv)
   ros2_system.save_latency_total_stats(latency_total_output_path);
 
   std::cout << std::endl;
+
+  /* Note:
+  * The shutdown was moved here because of a segfault that is
+  * caused by zenoh rmw with the share_memory option enabled.
+  * The cause of the segfault is still unknown.
+  * This "fix" only allows us to delay the crash until the stats have been saved to disk.
+  */
+  rclcpp::shutdown();
 }

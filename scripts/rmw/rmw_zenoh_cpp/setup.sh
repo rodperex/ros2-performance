@@ -4,8 +4,8 @@
 THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 # TODO: The shared memory configuration breaks something. Must review.
-# export ZENOH_ROUTER_CONFIG_URI=$THIS_DIR/rmw_zenoh_router_shared_config.json5
-# export ZENOH_SESSION_CONFIG_URI=$THIS_DIR/rmw_zenoh_session_shared_config.json5
+export ZENOH_ROUTER_CONFIG_URI=$THIS_DIR/rmw_zenoh_router_shared_config.json5
+export ZENOH_SESSION_CONFIG_URI=$THIS_DIR/rmw_zenoh_session_shared_config.json5
 
 echo "Enablig shared memory zero-copy transport for zenoh"
 

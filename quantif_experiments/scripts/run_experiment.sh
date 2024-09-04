@@ -6,9 +6,10 @@ rmw=$1
 arch=$2
 
 # Define the experiment parameters
-times=(10 20) # seconds
-use_ipc_values=(0 1)
+times=(60) # seconds
+use_ipc_values=(1)
 load_values=("low" "medium" "high")
+# load_values=("high")
 experiment_path=$THIS_DIR/../results
 
 # Validate RMW implementation
@@ -64,13 +65,13 @@ run_stress() {
     "high")
       local mem=$((total_ram / 2))
       local cpus=$num_cpus
-      local io_ops=10
+      local io_ops=$((num_cpus / 2))
       stressing=1
       ;;
     "medium")
       local mem=$((total_ram / 4))
       local cpus=$((num_cpus / 2))
-      local io_ops=5
+      local io_ops=$((num_cpus / 4))
       stressing=1
       ;;
     "low")
