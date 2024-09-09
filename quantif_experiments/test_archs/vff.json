@@ -67,8 +67,9 @@
       }
     ],
     
-    "critical_path": [
-        {"start_node": "camera_driver", "end_node": "object_tracker", "topic": "camera_info"},
-        {"start_node": "camera_driver", "end_node": "object_tracker", "topic": "rgb_image"}
+    "critical_path": [[
+        {"start_node": "camera", "end_node": "ai_detector", "topic": "rgb_image"},
+        {"start_node": "ai_detector", "end_node": "object_tracker", "topic": "out_detection_2d"}
+      ]
     ]
 }

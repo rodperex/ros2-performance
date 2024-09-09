@@ -112,7 +112,7 @@
             {"topic_name":"depth_image", "msg_type":"image", "freq_hz": 10},
             {"topic_name":"point_cloud", "msg_type":"point_cloud2", "freq_hz": 10}
           ],
-        "executor_id":1
+        "executor_id":99
       },
       {
         "node_name": "ai_detector",
@@ -124,7 +124,7 @@
         "publishers": [
             {"topic_name":"out_detection_3d", "msg_type":"detection3d_array", "freq_hz": 10}
           ],
-        "executor_id":1
+        "executor_id":99
       },
       {
         "node_name": "perception_system",
@@ -145,7 +145,7 @@
         "publishers": [
             {"topic_name":"collision_point_cloud", "msg_type":"point_cloud2", "freq_hz": 10}
           ],
-        "executor_id":1
+        "executor_id":99
       },
       {
         "node_name": "manipulation_system",
@@ -158,7 +158,7 @@
             {"topic_name":"arm_controller", "msg_type":"joint_trajectory", "freq_hz": 0.1},
             {"topic_name":"torso_controller", "msg_type":"joint_trajectory", "freq_hz": 0.1}
           ],
-        "executor_id":1
+        "executor_id":99
       },
       {
         "node_name": "head_driver",
@@ -172,7 +172,7 @@
         "subscribers":[
             {"topic_name":"arm_controller", "msg_type":"joint_trajectory"}
           ],
-        "executor_id":1
+        "executor_id":99
       },
       {
         "node_name": "torso_driver",
@@ -188,58 +188,6 @@
         {"start_node": "camera", "end_node": "collision_server", "topic": "point_cloud"},
         {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
         {"start_node": "manipulation_system", "end_node": "arm_driver", "topic": "arm_controller"}
-      ],
-      [
-        {"start_node": "camera", "end_node": "ai_detector", "topic": "rgb_image"},
-        {"start_node": "ai_detector", "end_node": "perception_system", "topic": "out_detection_3d"},
-        {"start_node": "perception_system", "end_node": "collision_server", "topic": "out_detection_3d"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "arm_driver", "topic": "arm_controller"}
-      ],
-      [
-        {"start_node": "camera", "end_node": "ai_detector", "topic": "depth_image"},
-        {"start_node": "ai_detector", "end_node": "perception_system", "topic": "out_detection_3d"},
-        {"start_node": "perception_system", "end_node": "collision_server", "topic": "out_detection_3d"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "arm_driver", "topic": "arm_controller"}
-      ],
-      [
-        {"start_node": "camera", "end_node": "collision_server", "topic": "point_cloud"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "torso_driver", "topic": "torso_controller"}
-      ],
-      [
-        {"start_node": "camera", "end_node": "ai_detector", "topic": "rgb_image"},
-        {"start_node": "ai_detector", "end_node": "perception_system", "topic": "out_detection_3d"},
-        {"start_node": "perception_system", "end_node": "collision_server", "topic": "out_detection_3d"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "torso_driver", "topic": "torso_controller"}
-      ],
-      [
-        {"start_node": "camera", "end_node": "ai_detector", "topic": "depth_image"},
-        {"start_node": "ai_detector", "end_node": "perception_system", "topic": "out_detection_3d"},
-        {"start_node": "perception_system", "end_node": "collision_server", "topic": "out_detection_3d"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "torso_driver", "topic": "torso_controller"}
-      ],
-      [
-        {"start_node": "camera", "end_node": "collision_server", "topic": "depth_image"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "head_driver", "topic": "head_controller"}
-      ],
-      [
-        {"start_node": "camera", "end_node": "ai_detector", "topic": "rgb_image"},
-        {"start_node": "ai_detector", "end_node": "perception_system", "topic": "out_detection_3d"},
-        {"start_node": "perception_system", "end_node": "collision_server", "topic": "out_detection_3d"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "head_driver", "topic": "head_controller"}
-      ],
-      [
-        {"start_node": "camera", "end_node": "ai_detector", "topic": "depth_image"},
-        {"start_node": "ai_detector", "end_node": "perception_system", "topic": "out_detection_3d"},
-        {"start_node": "perception_system", "end_node": "collision_server", "topic": "out_detection_3d"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "head_driver", "topic": "head_controller"}
       ]
     ]
 }
