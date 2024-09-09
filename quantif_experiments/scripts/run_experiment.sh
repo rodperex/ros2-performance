@@ -4,10 +4,11 @@ THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 rmw=$1
 arch=$2
+use_ipc=$3
 
 # Define the experiment parameters
-times=(60) # seconds
-use_ipc_values=(1)
+times=(1200) # seconds
+# use_ipc_values=(0 1)
 load_values=("low" "medium" "high")
 # load_values=("high")
 experiment_path=$THIS_DIR/../results
@@ -97,27 +98,25 @@ run_stress() {
 }
 
 exp=0
-# Loop over the times, use_ipc values, and load values
+# Loop over the times and load values
 for t in "${times[@]}"; do
-  for use_ipc in "${use_ipc_values[@]}"; do
-    for load in "${load_values[@]}"; do
-      exp=$((exp+1))
-      echo "-------------------------------------------------"
-      echo "Running experiment $exp, with -t $t, --use_ipc $use_ipc, and --load $load"
-      
-      run_stress $load $t
+  for load in "${load_values[@]}"; do
+    exp=$((exp+1))
+    echo "-------------------------------------------------"
+    echo "Running experiment $exp, with -t $t, --use_ipc $use_ipc, and --load $load"
 
-      ros2 run quantif_experiments quantif --use_ipc $use_ipc -t $t --experiment_path "$experiment_path" --arch $arch --rmw $rmw --load $load --verbose 0
-      
-      # Wait for stress command to finish if it was started in the background
-      if [ "$load" = "high" ] || [ "$load" = "medium" ]; then
-        echo "Waiting for stress command to finish"
-        wait "$stress_pid"
-      fi
-      
-      echo "Experiment with -t $t, --use_ipc $use_ipc, and --load $load completed"
-      echo "-------------------------------------------------"
-    done
+    run_stress $load $t
+
+    ros2 run quantif_experiments quantif --use_ipc $use_ipc -t $t --experiment_path "$experiment_path" --arch $arch --rmw $rmw --load $load --verbose 0
+
+    # Wait for stress command to finish if it was started in the background
+    if [ "$load" = "high" ] || [ "$load" = "medium" ]; then
+      echo "Waiting for stress command to finish"
+      wait "$stress_pid"
+    fi
+
+    echo "Experiment with -t $t, --use_ipc $use_ipc, and --load $load completed"
+    echo "-------------------------------------------------"
   done
 done
 
