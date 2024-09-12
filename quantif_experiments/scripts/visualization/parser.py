@@ -14,7 +14,7 @@ import pandas as pd
 # Experiment configuration to load result files
 EXPERIMENT_ARCHS = ['simple', 'medium', 'complex']
 RMW_IMPLEMENTATIONS = ['fast', 'cyclone', 'zenoh']
-EXPERIMENT_TIMES = [1200]
+EXPERIMENT_TIMES = [300]
 EXPERIMENT_STRESS = ['low', 'medium', 'high']
 
 # Format of result files
