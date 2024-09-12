@@ -7,10 +7,9 @@ arch=$2
 use_ipc=$3
 
 # Define the experiment parameters
-times=(1200) # seconds
+times=(300) # seconds
 # use_ipc_values=(0 1)
 load_values=("low" "medium" "high")
-# load_values=("high")
 experiment_path=$THIS_DIR/../results
 
 # Validate RMW implementation
@@ -113,7 +112,7 @@ for t in "${times[@]}"; do
     ros2 run quantif_experiments quantif --use_ipc $use_ipc -t $t --experiment_path "$experiment_path" --arch $arch --rmw $rmw --load $load --verbose 0
 
     # Wait for stress command to finish if it was started in the background
-    if [ "$load" = "high" ] || [ "$load" = "medium" ]; then
+    if [ "$load" = "high" ] || [ "$load" = "medium" ] || [ "$load" = "low" ]; then
       echo "Waiting for stress command to finish"
       wait "$stress_pid"
     fi
