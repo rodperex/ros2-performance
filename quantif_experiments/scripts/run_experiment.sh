@@ -76,7 +76,10 @@ run_stress() {
       stressing=1
       ;;
     "low")
-      stressing=0
+      local mem=$((total_ram / 1024))
+      local cpus=1
+      local io_ops=1
+      stressing=1
       ;;
     *)
       echo "Invalid level specified. Use 'low', 'high' or 'medium'."
