@@ -1,7 +1,7 @@
 #!/bin/bash
 
-archs=(simple medium complex)
-use_ipc_values=(0)
+archs=(complex_rt)
+use_ipc_values=(1)
 rmws=(fast cyclone) # Zenoh runs isolated after these
 
 
@@ -16,10 +16,10 @@ for arch in "${archs[@]}"; do
 done
 
 # Then run zenoh tests without IPC
-for arch in "${archs[@]}"; do
-  bash run_experiment.sh zenoh $arch 0
-  sleep 4
-done
+# for arch in "${archs[@]}"; do
+#   bash run_experiment.sh zenoh $arch 0
+#   sleep 4
+# done
 
 # Finally run zenoh tests with IPC (with its special config)
 export ZENOH_ROUTER_CONFIG_URI=/home/franmore/ros2/quantif_ws/src/ros2-performance/scripts/rmw/rmw_zenoh_cpp/rmw_zenoh_router_shared_config.json5

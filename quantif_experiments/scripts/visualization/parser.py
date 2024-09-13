@@ -10,9 +10,10 @@
 import os
 import io
 import pandas as pd
+import json
 
 # Experiment configuration to load result files
-EXPERIMENT_ARCHS = ['simple', 'medium', 'complex']
+EXPERIMENT_ARCHS = ['simple', 'medium', 'complex', 'complex_rt']
 RMW_IMPLEMENTATIONS = ['fast', 'cyclone', 'zenoh']
 EXPERIMENT_TIMES = [300]
 EXPERIMENT_STRESS = ['low', 'medium', 'high']
@@ -81,6 +82,7 @@ def read_latency_file(latency_file, extra_cols={}):
   """ Read the file with the latency (all) results data and return a DataFrame """
   if not os.path.isfile(latency_file):
     print(F"ERROR: File {latency_file} does not exist! Skipping...")
+    return None
   # First, manually parse the file to separate publisher/subscriber sections
   with open(latency_file, 'r') as f:
     file_lines = f.readlines()
@@ -156,6 +158,17 @@ def aggregate_resources_results(results_path):
   """
   return aggregate_results(results_path, RESOURCES_RESULT_FILE_FORMAT, read_resources_file)
 
+def get_critical_path(arch_file):
+  """ Read the critical path from a given architecture.
+      Return a list with the topics inthe critical path, without duplicates.
+  """
+  with open(arch_file) as f:
+    arc_data = json.load(f)
+  path_data = arc_data['critical_path'][0]
+  topics = set()
+  for p in path_data:
+    topics.add(p['topic'])
+  return list(topics)
 
 if __name__ == '__main__':
   """ This main is for testing purposes only """
@@ -190,3 +203,7 @@ if __name__ == '__main__':
     'IPC'
   ]
   print(F"Resources data filtered:\n{res_data[res_print_cols]}")
+
+  # RT critical path
+  topics = get_critical_path('../../test_archs/social_rt.json')
+  print(F"Topics: {topics}")

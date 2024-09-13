@@ -172,8 +172,8 @@ std::unique_ptr<std::thread> System::create_spin_thread(rclcpp::Executor::Shared
       thread = std::make_unique<std::thread>(
         [executor]() {
           sched_param sch;
-          sch.sched_priority = 60;
-          if (pthread_setschedparam(pthread_self(), SCHED_FIFO, &sch) == -1) {
+          sch.sched_priority = 80;
+          if (pthread_setschedparam(pthread_self(), SCHED_FIFO, &sch) != 0) {
             perror("pthread_setschedparam failed");
             exit(-1);
           }

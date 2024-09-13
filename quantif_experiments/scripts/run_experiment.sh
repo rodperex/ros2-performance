@@ -25,8 +25,8 @@ else
 fi
 
 # Validate architecture
-if [[ "$arch" != "simple" && "$arch" != "medium" && "$arch" != "complex" ]]; then
-  echo "Invalid architecture: $arch. Valid options are 'simple', 'medium', or 'complex'."
+if [[ "$arch" != "simple" && "$arch" != "medium" && "$arch" != "complex" && "$arch" != "complex_rt" ]]; then
+  echo "Invalid architecture: $arch. Valid options are 'simple', 'medium', 'complex' or 'complex_rt'."
   return
 fi
 

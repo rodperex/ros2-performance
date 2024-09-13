@@ -34,6 +34,8 @@ int main(int argc, char ** argv)
       options.json_path = this_dir_path + std::string("/../test_archs/nav.json");
     else if (options.architecture == "complex")
       options.json_path = this_dir_path + std::string("/../test_archs/social.json");
+    else if (options.architecture == "complex_rt")
+      options.json_path = this_dir_path + std::string("/../test_archs/social_rt.json");
     else {
       std::cerr << "Architecture not recognized" << std::endl;
       return -1;

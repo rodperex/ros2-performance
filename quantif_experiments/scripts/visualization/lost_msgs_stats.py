@@ -13,7 +13,7 @@ def plot_loss_over_size(lat_data, arch='simple'):
   lat_data = lat_data[['Size', 'Msg Lost', 'Pub/Sub Type', 'Architecture', 'CPU Stress', 'RMW', 'IPC']]
   # Use only the experiments without CPU stress
   lat_data = lat_data[lat_data['CPU Stress'] == 'high']
-  lat_data = lat_data[lat_data['Architecture'] == arch]
+  # lat_data = lat_data[lat_data['Architecture'] == arch]
   g = sns.catplot(kind='bar', data=lat_data, x='Size', y='Msg Lost', hue='IPC', col='RMW', errorbar=None)
   g.set_xlabels('Message Size (Bytes)', fontsize=15)
   g.set_ylabels('Lost messages (#)', fontsize=15)
@@ -26,7 +26,7 @@ def plot_loss_over_load(lat_data, arch='simple'):
   lat_data = lat_data[['Size', 'Msg Lost', 'Pub/Sub Type', 'Architecture', 'CPU Stress', 'RMW', 'IPC']]
   # Use only the experiments without CPU stress
   lat_data = lat_data[lat_data['IPC'] == 0]
-  lat_data = lat_data[lat_data['Architecture'] == arch]
+  # lat_data = lat_data[lat_data['Architecture'] == arch]
   g = sns.catplot(kind='bar', data=lat_data, x='Size', y='Msg Lost', hue='CPU Stress', col='RMW', errorbar=None)
   g.set_xlabels('Message Size (Bytes)', fontsize=15)
   g.set_ylabels('Lost Messages (#)', fontsize=15)
@@ -51,7 +51,8 @@ def main():
 
   # Save to CSV for outside analysis
   # latency_data.to_csv("latency_data.csv")
-
+  filt_data = latency_data[latency_data['Msg Lost'] > 0]
+  print(F"Latency data filtered:\n{filt_data}")
   plot_loss_over_size(latency_data, arch='complex')
   plot_loss_over_load(latency_data, arch='complex')
 
