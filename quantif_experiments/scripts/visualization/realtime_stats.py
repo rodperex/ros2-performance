@@ -58,10 +58,10 @@ def main():
   ]
   print(grouped_lat[print_cols])
   # grouped_lat.plot(kind='bar', y='Mean')
-  g = sns.catplot(kind='bar', data=grouped_lat, x='RMW', y='Mean',
-                  hue='Architecture', col='CPU Stress',
-                  order=['fast', 'cyclone', 'zenoh'],
-                  col_order=['low', 'medium', 'high'],
+  g = sns.catplot(kind='bar', data=grouped_lat, x='CPU Stress', y='Mean',
+                  hue='Architecture', col='RMW',
+                  col_order=['fast', 'cyclone', 'zenoh'],
+                  order=['low', 'medium', 'high'],
                   errorbar=None)
 
   g.set_xlabels('RMW', fontsize=15)
