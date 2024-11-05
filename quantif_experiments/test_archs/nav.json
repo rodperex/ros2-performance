@@ -39,7 +39,7 @@
         "node_name": "amcl",
         "subscribers":[
           {"topic_name":"scan", "msg_type":"laser_scan"},
-          {"topic_name":"map", "msg_type":"tf_message"}
+          {"topic_name":"map", "msg_type":"occupancy_grid"}
           ],
         "publishers": [
             {"topic_name":"tf", "msg_type":"tf_message", "freq_hz": 10}
@@ -68,7 +68,7 @@
       {
         "node_name": "map_server",
         "publishers": [
-            {"topic_name":"map", "msg_type":"tf_message", "freq_hz": 10}
+            {"topic_name":"map", "msg_type":"occupancy_grid", "freq_hz": 0.1}
           ],
         "executor_id":1
       },

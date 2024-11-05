@@ -62,7 +62,8 @@ set( CUSTOM_MSGS
   "msg/JointTrajectory.msg"
   "msg/JointState.msg"
   "msg/Detection3d.msg"
-  "msg/Detection3dArray.msg"
+  "msg/Detection3dArray.msg",
+  "msg/OccupancyGrid.msg"
 )
 
 set ( CUSTOM_SRVS
