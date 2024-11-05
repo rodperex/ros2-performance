@@ -20,6 +20,7 @@ find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(vision_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 set( CUSTOM_MSGS
   "msg/StampedInt64.msg"
@@ -62,7 +63,7 @@ set( CUSTOM_MSGS
   "msg/JointTrajectory.msg"
   "msg/JointState.msg"
   "msg/Detection3d.msg"
-  "msg/Detection3dArray.msg",
+  "msg/Detection3dArray.msg"
   "msg/OccupancyGrid.msg"
 )
 
@@ -73,7 +74,7 @@ set ( CUSTOM_SRVS
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${CUSTOM_MSGS}
   ${CUSTOM_SRVS}
-  DEPENDENCIES std_msgs sensor_msgs vision_msgs performance_test_msgs
+  DEPENDENCIES std_msgs sensor_msgs vision_msgs nav_msgs performance_test_msgs
 )
 
 generate_factory_plugin("${CUSTOM_MSGS}" "${CUSTOM_SRVS}")

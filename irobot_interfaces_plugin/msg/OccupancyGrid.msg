@@ -1,7 +1,7 @@
 performance_test_msgs/PerformanceHeader header
 
 # MetaData for the map
-nav_msgs/msg/MapMetaData info
+nav_msgs/MapMetaData info
 
 # The map data, in row-major order, starting with (0,0).
 # Cell (1, 0) will be listed second, representing the next cell in the x direction.
