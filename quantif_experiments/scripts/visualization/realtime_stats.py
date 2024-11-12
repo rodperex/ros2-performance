@@ -42,6 +42,9 @@ def main():
   filt_data = latency_data[(latency_data['Architecture'] == 'complex') | (latency_data['Architecture'] == 'complex_rt')]
   # Keep only experiments with IPC enabled
   filt_data = filt_data[filt_data['IPC'] == 1]
+  # Use only the subscription latency, because it includes the total time between publish and callback
+  # The latency time in the "Publisher" field is already included in the "Subscription"
+  filt_data = filt_data[filt_data['Pub/Sub Type'] == 'Subscription']
 
   # Filter dataset and keep only topics from critical path
   critical_path_topics = parser.get_critical_path('../../test_archs/social_rt.json')
@@ -64,7 +67,7 @@ def main():
                   order=['low', 'medium', 'high'],
                   errorbar=None)
 
-  g.set_xlabels('RMW', fontsize=15)
+  g.set_xlabels('CPU Load', fontsize=15)
   g.set_ylabels('End-to-End Latency (µs)', fontsize=15)
   # Put a global title to the plot
   g.fig.subplots_adjust(top=0.92)
