@@ -160,50 +160,56 @@ def aggregate_resources_results(results_path):
 
 def get_critical_path(arch_file):
   """ Read the critical path from a given architecture.
-      Return a list with the topics inthe critical path, without duplicates.
+      Return a list with the topics in the critical path, without duplicates.
   """
   with open(arch_file) as f:
     arc_data = json.load(f)
-  path_data = arc_data['critical_path'][0]
+  path_data = arc_data['critical_path']
   topics = set()
   for p in path_data:
     topics.add(p['topic'])
   return list(topics)
 
+def get_visualization_topics(arch_file):
+  """ Read the visualization topics from a given architecture.
+      Return a list of dictionaries from the json data with this format:
+         [{'topic': '...', 'node': '...'}, {...}]
+  """
+  with open(arch_file) as f:
+    arc_data = json.load(f)
+  return arc_data['visualization_topics']
+
+
 if __name__ == '__main__':
   """ This main is for testing purposes only """
-  single_latency_data = read_latency_file('../../results/simple/fast/latency_all_ipc-0_5s_low.txt')
+  single_latency_data = read_latency_file('../../results/roscon_sevilla/simple/fast/latency_all_ipc-0_300s_low.txt')
   print(F"Single latency file data:\n{single_latency_data}")
-  single_resources_data = read_resources_file('../../results/simple/fast/resources_ipc-0_5s_low.txt')
+  single_resources_data = read_resources_file('../../results/roscon_sevilla/simple/fast/resources_ipc-0_300s_low.txt')
   print(F"Single resources file data:\n{single_resources_data}")
-  latency_data = aggregate_latency_results('../../results')
+  latency_data = aggregate_latency_results('../../results/roscon_sevilla')
   print(F"Latency data columns:\n{latency_data.columns}")
   print(F"Latency data:\n{latency_data}")
   latency_print_cols = [
     'Node',
     'Topic',
     'Pub/Sub Type',
-    'Architecture',
-    'RMW',
     'Test Duration',
-    'CPU Stress',
-    'IPC'
   ]
   print(F"Latency data filtered:\n{latency_data[latency_print_cols]}")
-  print(F"Resources data columns:\n{res_data.columns}")
-  print(F"Resources data:\n{res_data}")
+  print(F"Resources data columns:\n{single_resources_data.columns}")
+  print(F"Resources data:\n{single_resources_data}")
   res_print_cols = [
     'Time',
     'CPU',
     'arena',
     'in_use',
-    'Architecture',
-    'RMW',
-    'CPU Stress',
-    'IPC'
   ]
-  print(F"Resources data filtered:\n{res_data[res_print_cols]}")
+  print(F"Resources data filtered:\n{single_resources_data[res_print_cols]}")
 
   # RT critical path
-  topics = get_critical_path('../../test_archs/social_rt.json')
-  print(F"Topics: {topics}")
+  critical_topics = get_critical_path('../../test_archs/social_rt.json')
+  print(F"Topics in critical path: {critical_topics}")
+
+  # Visualization topics
+  viz_topics = get_visualization_topics('../../test_archs/social_rt.json')
+  print(F"Visualization topics: {viz_topics}")

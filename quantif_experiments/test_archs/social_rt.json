@@ -184,10 +184,19 @@
     ],
     
     "critical_path": [
-      [
-        {"start_node": "camera", "end_node": "collision_server", "topic": "point_cloud"},
-        {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
-        {"start_node": "manipulation_system", "end_node": "arm_driver", "topic": "arm_controller"}
-      ]
+      {"start_node": "camera", "end_node": "collision_server", "topic": "point_cloud"},
+      {"start_node": "collision_server", "end_node": "manipulation_system", "topic": "collision_point_cloud"},
+      {"start_node": "manipulation_system", "end_node": "arm_driver", "topic": "arm_controller"}
+    ],
+
+    "visualization_topics": [
+      {"topic": "scan", "node": "amcl"},
+      {"topic": "rgb_image", "node": "ai_detector"},
+      {"topic": "point_cloud", "node": "collision_server"},
+      {"topic": "joints_state", "node": "robot_state_publisher"},
+      {"topic": "out_detection_3d", "node": "perception_system"},
+      {"topic": "out_detection_3d", "node": "collision_server"},
+      {"topic": "cmd_vel", "node": "base_controller"}
     ]
+
 }
