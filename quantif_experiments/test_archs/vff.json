@@ -74,10 +74,9 @@
       {"start_node": "follower", "end_node": "base_controller", "topic": "cmd_vel"}
     ],
 
-    "visualization_topics": [[
+    "visualization_topics": [
       {"topic": "rgb_image", "node": "ai_detector"},
       {"topic": "scan", "node": "obstacle_detector"},
       {"topic": "cmd_vel", "node": "base_controller"}
     ]
-  ]
 }

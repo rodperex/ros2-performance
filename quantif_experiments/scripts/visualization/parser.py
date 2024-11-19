@@ -173,11 +173,18 @@ def get_critical_path(arch_file):
 def get_visualization_topics(arch_file):
   """ Read the visualization topics from a given architecture.
       Return a list of dictionaries from the json data with this format:
-         [{'topic': '...', 'node': '...'}, {...}]
+         [{'Topic': '...', 'Node': '...'}, {...}]
   """
   with open(arch_file) as f:
     arc_data = json.load(f)
-  return arc_data['visualization_topics']
+  # Rename topic, node keys to Topic, Node to match pandas columns
+  renamed_data = []
+  for topic_dict in arc_data['visualization_topics']:
+    renamed_data.append({
+      'Topic': topic_dict['topic'],
+      'Node': topic_dict['node'],
+    })
+  return renamed_data
 
 
 if __name__ == '__main__':

@@ -6,6 +6,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import parser  # Local quantif parser file
 
+archs = {
+  'simple': '../../test_archs/vff.json',
+  'medium': '../../test_archs/nav.json',
+  'complex': '../../test_archs/social.json',
+}
 ARCH = 'complex'
 
 def plot_latency_over_size(lat_data, arch='simple'):
@@ -45,9 +50,8 @@ def plot_latency_over_load(lat_data, arch='simple'):
   g.fig.suptitle(F'Latency over msg size, RMW and load  -  Architecture: {ARCH} | IPC: ON')
   plt.show()
 
-
 def main():
-  latency_data = parser.aggregate_latency_results('../../results')
+  latency_data = parser.aggregate_latency_results('../../results/roscon_sevilla')
   print(F"Latency data columns:\n{latency_data.columns}")
   print(F"Latency data:\n{latency_data}")
   print_cols = [
@@ -67,6 +71,14 @@ def main():
 
   plot_latency_over_size(latency_data, arch=ARCH)
   plot_latency_over_load(latency_data, arch=ARCH)
+
+  # Filter dataset by visualization topics in the selected architecture
+  viz_topics = parser.get_visualization_topics(archs[ARCH])
+  print(F"Visualization topics:\n{viz_topics}")
+  filt_data = filter_dataframe_by_viz_topics(latency_data, viz_topics)
+  df_display = filt_data[['Topic','Node']].drop_duplicates()
+  print(F"Filtered data:\n{filt_data}")
+  print(F"Filtered data disp:\n{df_display}")
 
 if __name__ == '__main__':
     main()
